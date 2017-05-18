@@ -1,0 +1,54 @@
+* TODO składnia `use`
+* TODO .tern-project
+* TODO Turn off syntax checking for HTML
+* TODO Kolejne stany (plugi?) przez które przechodzi request / response
+* DONE Router.Helpers
+* TODO
+CLOSED: [2017-05-01 pon 23:34]
+#+BEGIN_SRC elixir
+Czynopimy.Router.Helpers.hello_path(Czynopimy.Endpoint, :index)
+#+END_SRC
+* TODO Fix smartparens
+** do:
+#+BEGIN_SRC elixir
+defp authorize_url!("github"),   do: GitHub.authorize_url!
+#+END_SRC
+** ignore comments
+* TODO https://hexdocs.pm/plug/Plug.Session.COOKIE.html#content
+* Notes
+** Start Postgresql db
+#+BEGIN_SRC bash
+pg_ctl -l postgresql.log start
+#+END_SRC
+** Create Postgres superuser
+#+BEGIN_SRC sql
+CREATE USER phoenix;
+ALTER USER phoenix PASSWORD 'phoenix';
+ALTER USER phoenix WITH SUPERUSER;
+#+END_SRC
+** locatunnel
+#+BEGIN_SRC bash
+lt -s czynopimy -p 4000
+#+END_SRC
+
+https://czynopimy.localtunnel.me/auth/login
+
+#+BEGIN_SRC elixir
+%{"email" => "janek.ziniewicz@gmail.com",
+  "email_verified" => "true",
+  "family_name" => "Ziniewicz",
+  "gender" => "male",
+  "given_name" => "Jan",
+  "kind" => "plus#personOpenIdConnect",
+  "name" => "Jan Ziniewicz",
+  "picture" => "https://lh5.googleusercontent.com/-XukLZf0Zr3c/AAAAAAAAAAI/AAAAAAAATRY/vuFL_qkhTGQ/photo.jpg?sz=50",
+  "profile" => "https://plus.google.com/113835992414951214090",
+  "sub" => "113835992414951214090"}
+#+END_SRC
+
+* Links
+Phoenix docs: https://hexdocs.pm/phoenix/Phoenix.html
+Plug docs: https://hexdocs.pm/plug/readme.html
+Logger docs: https://hexdocs.pm/logger/Logger.html
+Eex docs: https://hexdocs.pm/eex/EEx.html
+Phoenix HTML: https://hexdocs.pm/phoenix_html/Phoenix.HTML.html

@@ -1,0 +1,30 @@
+<h2>Listing participants</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Google</th>
+      <th>Name</th>
+      <th>Avatar url</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for participant <- @participants do %>
+    <tr>
+      <td><%= participant.google_id %></td>
+      <td><%= participant.name %></td>
+      <td><%= participant.avatar_url %></td>
+
+      <td class="text-right">
+        <%= link "Show", to: participant_path(@conn, :show, participant), class: "btn btn-default btn-xs" %>
+        <%= link "Edit", to: participant_path(@conn, :edit, participant), class: "btn btn-default btn-xs" %>
+        <%= link "Delete", to: participant_path(@conn, :delete, participant), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<%= link "New participant", to: participant_path(@conn, :new) %>

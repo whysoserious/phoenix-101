@@ -1,0 +1,888 @@
+{
+  "dataSource": [
+    {
+      "dataStreamName": "detailed",
+      "dataType": {
+        "field": [
+          {
+            "name": "activity_confidence",
+            "format": "map"
+          }
+        ],
+        "name": "com.google.activity.samples"
+      },
+      "dataQualityStandard": [],
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "cdc4c3f0",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "derived:com.google.activity.samples:com.google.android.gms:motorola:Nexus 6:cdc4c3f0:detailed",
+      "type": "derived"
+    },
+    {
+      "dataStreamName": "hardware_tilt_manchego",
+      "dataType": {
+        "field": [
+          {
+            "name": "activity_confidence",
+            "format": "map"
+          }
+        ],
+        "name": "com.google.activity.samples"
+      },
+      "dataQualityStandard": [],
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "cdc4c3f0",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "derived:com.google.activity.samples:com.google.android.gms:motorola:Nexus 6:cdc4c3f0:hardware_tilt_manchego",
+      "type": "derived"
+    },
+    {
+      "dataStreamName": "smd_gouda",
+      "dataType": {
+        "field": [
+          {
+            "name": "activity_confidence",
+            "format": "map"
+          }
+        ],
+        "name": "com.google.activity.samples"
+      },
+      "dataQualityStandard": [],
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "cdc4c3f0",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "derived:com.google.activity.samples:com.google.android.gms:motorola:Nexus 6:cdc4c3f0:smd_gouda",
+      "type": "derived"
+    },
+    {
+      "dataStreamName": "software_tilt_froyo",
+      "dataType": {
+        "field": [
+          {
+            "name": "activity_confidence",
+            "format": "map"
+          }
+        ],
+        "name": "com.google.activity.samples"
+      },
+      "dataQualityStandard": [],
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "cdc4c3f0",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "derived:com.google.activity.samples:com.google.android.gms:motorola:Nexus 6:cdc4c3f0:software_tilt_froyo",
+      "type": "derived"
+    },
+    {
+      "dataStreamName": "vehicle_exit_tala",
+      "dataType": {
+        "field": [
+          {
+            "name": "activity_confidence",
+            "format": "map"
+          }
+        ],
+        "name": "com.google.activity.samples"
+      },
+      "dataQualityStandard": [],
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "cdc4c3f0",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "derived:com.google.activity.samples:com.google.android.gms:motorola:Nexus 6:cdc4c3f0:vehicle_exit_tala",
+      "type": "derived"
+    },
+    {
+      "dataStreamName": "detailed",
+      "dataType": {
+        "field": [
+          {
+            "name": "activity_confidence",
+            "format": "map"
+          }
+        ],
+        "name": "com.google.activity.samples"
+      },
+      "dataQualityStandard": [],
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "d83d7f49",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "derived:com.google.activity.samples:com.google.android.gms:motorola:Nexus 6:d83d7f49:detailed",
+      "type": "derived"
+    },
+    {
+      "dataStreamName": "hardware_tilt_manchego",
+      "dataType": {
+        "field": [
+          {
+            "name": "activity_confidence",
+            "format": "map"
+          }
+        ],
+        "name": "com.google.activity.samples"
+      },
+      "dataQualityStandard": [],
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "d83d7f49",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "derived:com.google.activity.samples:com.google.android.gms:motorola:Nexus 6:d83d7f49:hardware_tilt_manchego",
+      "type": "derived"
+    },
+    {
+      "dataStreamName": "smd_gouda",
+      "dataType": {
+        "field": [
+          {
+            "name": "activity_confidence",
+            "format": "map"
+          }
+        ],
+        "name": "com.google.activity.samples"
+      },
+      "dataQualityStandard": [],
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "d83d7f49",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "derived:com.google.activity.samples:com.google.android.gms:motorola:Nexus 6:d83d7f49:smd_gouda",
+      "type": "derived"
+    },
+    {
+      "dataStreamName": "software_tilt_froyo",
+      "dataType": {
+        "field": [
+          {
+            "name": "activity_confidence",
+            "format": "map"
+          }
+        ],
+        "name": "com.google.activity.samples"
+      },
+      "dataQualityStandard": [],
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "d83d7f49",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "derived:com.google.activity.samples:com.google.android.gms:motorola:Nexus 6:d83d7f49:software_tilt_froyo",
+      "type": "derived"
+    },
+    {
+      "dataStreamName": "vehicle_exit_tala",
+      "dataType": {
+        "field": [
+          {
+            "name": "activity_confidence",
+            "format": "map"
+          }
+        ],
+        "name": "com.google.activity.samples"
+      },
+      "dataQualityStandard": [],
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "d83d7f49",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "derived:com.google.activity.samples:com.google.android.gms:motorola:Nexus 6:d83d7f49:vehicle_exit_tala",
+      "type": "derived"
+    },
+    {
+      "dataQualityStandard": [],
+      "dataType": {
+        "field": [
+          {
+            "name": "activity",
+            "format": "integer"
+          }
+        ],
+        "name": "com.google.activity.segment"
+      },
+      "dataStreamName": "merge_activity_segments",
+      "application": {
+        "packageName": "com.google.android.gms",
+        "version": "1"
+      },
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:merge_activity_segments",
+      "type": "derived"
+    },
+    {
+      "dataStreamName": "activity_from_steps",
+      "dataType": {
+        "field": [
+          {
+            "name": "activity",
+            "format": "integer"
+          }
+        ],
+        "name": "com.google.activity.segment"
+      },
+      "dataQualityStandard": [],
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "cdc4c3f0",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:motorola:Nexus 6:cdc4c3f0:activity_from_steps",
+      "type": "derived"
+    },
+    {
+      "dataStreamName": "from_activity_samples<-derived:com.google.activity.samples:com.google.android.gms:motorola:Nexus 6:cdc4c3f0:detailed",
+      "dataType": {
+        "field": [
+          {
+            "name": "activity",
+            "format": "integer"
+          }
+        ],
+        "name": "com.google.activity.segment"
+      },
+      "dataQualityStandard": [],
+      "application": {
+        "packageName": "com.google.android.gms",
+        "version": "1"
+      },
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "cdc4c3f0",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:motorola:Nexus 6:cdc4c3f0:from_activity_samples<-derived:com.google.activity.samples:com.google.android.gms:motorola:Nexus 6:cdc4c3f0:detailed",
+      "type": "derived"
+    },
+    {
+      "dataStreamName": "activity_from_steps",
+      "dataType": {
+        "field": [
+          {
+            "name": "activity",
+            "format": "integer"
+          }
+        ],
+        "name": "com.google.activity.segment"
+      },
+      "dataQualityStandard": [],
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "d83d7f49",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:motorola:Nexus 6:d83d7f49:activity_from_steps",
+      "type": "derived"
+    },
+    {
+      "dataStreamName": "from_activity_samples<-derived:com.google.activity.samples:com.google.android.gms:motorola:Nexus 6:d83d7f49:detailed",
+      "dataType": {
+        "field": [
+          {
+            "name": "activity",
+            "format": "integer"
+          }
+        ],
+        "name": "com.google.activity.segment"
+      },
+      "dataQualityStandard": [],
+      "application": {
+        "packageName": "com.google.android.gms",
+        "version": "1"
+      },
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "d83d7f49",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:motorola:Nexus 6:d83d7f49:from_activity_samples<-derived:com.google.activity.samples:com.google.android.gms:motorola:Nexus 6:d83d7f49:detailed",
+      "type": "derived"
+    },
+    {
+      "dataQualityStandard": [],
+      "dataType": {
+        "field": [
+          {
+            "name": "activity",
+            "format": "integer"
+          }
+        ],
+        "name": "com.google.activity.segment"
+      },
+      "dataStreamName": "platform_activity_segments",
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:platform_activity_segments",
+      "type": "derived"
+    },
+    {
+      "dataQualityStandard": [],
+      "dataType": {
+        "field": [
+          {
+            "name": "calories",
+            "format": "floatPoint"
+          }
+        ],
+        "name": "com.google.calories.expended"
+      },
+      "dataStreamName": "from_activities",
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataStreamId": "derived:com.google.calories.expended:com.google.android.gms:from_activities",
+      "type": "derived"
+    },
+    {
+      "dataQualityStandard": [],
+      "dataType": {
+        "field": [
+          {
+            "name": "calories",
+            "format": "floatPoint"
+          }
+        ],
+        "name": "com.google.calories.expended"
+      },
+      "dataStreamName": "from_bmr",
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataStreamId": "derived:com.google.calories.expended:com.google.android.gms:from_bmr",
+      "type": "derived"
+    },
+    {
+      "dataQualityStandard": [],
+      "dataType": {
+        "field": [
+          {
+            "name": "calories",
+            "format": "floatPoint"
+          }
+        ],
+        "name": "com.google.calories.expended"
+      },
+      "dataStreamName": "merge_calories_expended",
+      "application": {
+        "packageName": "com.google.android.gms",
+        "version": "1"
+      },
+      "dataStreamId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+      "type": "derived"
+    },
+    {
+      "dataQualityStandard": [],
+      "dataType": {
+        "field": [
+          {
+            "name": "calories",
+            "format": "floatPoint"
+          }
+        ],
+        "name": "com.google.calories.expended"
+      },
+      "dataStreamName": "platform_calories_expended",
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataStreamId": "derived:com.google.calories.expended:com.google.android.gms:platform_calories_expended",
+      "type": "derived"
+    },
+    {
+      "dataQualityStandard": [],
+      "dataType": {
+        "field": [
+          {
+            "name": "activity",
+            "format": "integer"
+          },
+          {
+            "name": "confidence",
+            "format": "floatPoint"
+          },
+          {
+            "name": "elevation.change",
+            "format": "floatPoint"
+          },
+          {
+            "name": "floors",
+            "format": "floatPoint"
+          }
+        ],
+        "name": "com.google.floor_change"
+      },
+      "dataStreamName": "merge_floor_change",
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataStreamId": "derived:com.google.floor_change:com.google.android.gms:merge_floor_change",
+      "type": "derived"
+    },
+    {
+      "dataStreamName": "",
+      "dataType": {
+        "field": [
+          {
+            "name": "activity",
+            "format": "integer"
+          },
+          {
+            "name": "confidence",
+            "format": "floatPoint"
+          },
+          {
+            "name": "elevation.change",
+            "format": "floatPoint"
+          },
+          {
+            "name": "floors",
+            "format": "floatPoint"
+          }
+        ],
+        "name": "com.google.floor_change"
+      },
+      "dataQualityStandard": [],
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "cdc4c3f0",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "derived:com.google.floor_change:com.google.android.gms:motorola:Nexus 6:cdc4c3f0:",
+      "type": "derived"
+    },
+    {
+      "dataStreamName": "derive_step_cadence<-raw:com.google.step_count.cumulative:motorola:Nexus 6:cdc4c3f0:Invensense Step Counter",
+      "dataType": {
+        "field": [
+          {
+            "name": "rpm",
+            "format": "floatPoint"
+          }
+        ],
+        "name": "com.google.step_count.cadence"
+      },
+      "dataQualityStandard": [],
+      "application": {
+        "packageName": "com.google.android.gms",
+        "version": "1"
+      },
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "cdc4c3f0",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "derived:com.google.step_count.cadence:com.google.android.gms:motorola:Nexus 6:cdc4c3f0:derive_step_cadence<-raw:com.google.step_count.cumulative:motorola:Nexus 6:cdc4c3f0:Invensense Step Counter",
+      "type": "derived"
+    },
+    {
+      "dataStreamName": "derive_step_cadence<-raw:com.google.step_count.cumulative:motorola:Nexus 6:cdc4c3f0:Invensense Step Counter-Wakeup Secondary",
+      "dataType": {
+        "field": [
+          {
+            "name": "rpm",
+            "format": "floatPoint"
+          }
+        ],
+        "name": "com.google.step_count.cadence"
+      },
+      "dataQualityStandard": [],
+      "application": {
+        "packageName": "com.google.android.gms",
+        "version": "1"
+      },
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "cdc4c3f0",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "derived:com.google.step_count.cadence:com.google.android.gms:motorola:Nexus 6:cdc4c3f0:derive_step_cadence<-raw:com.google.step_count.cumulative:motorola:Nexus 6:cdc4c3f0:Invensense Step Counter-Wakeup Secondary",
+      "type": "derived"
+    },
+    {
+      "dataStreamName": "derive_step_cadence<-raw:com.google.step_count.cumulative:motorola:Nexus 6:d83d7f49:Invensense Step Counter",
+      "dataType": {
+        "field": [
+          {
+            "name": "rpm",
+            "format": "floatPoint"
+          }
+        ],
+        "name": "com.google.step_count.cadence"
+      },
+      "dataQualityStandard": [],
+      "application": {
+        "packageName": "com.google.android.gms",
+        "version": "1"
+      },
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "d83d7f49",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "derived:com.google.step_count.cadence:com.google.android.gms:motorola:Nexus 6:d83d7f49:derive_step_cadence<-raw:com.google.step_count.cumulative:motorola:Nexus 6:d83d7f49:Invensense Step Counter",
+      "type": "derived"
+    },
+    {
+      "dataStreamName": "derive_step_cadence<-raw:com.google.step_count.cumulative:motorola:Nexus 6:d83d7f49:Invensense Step Counter-Wakeup Secondary",
+      "dataType": {
+        "field": [
+          {
+            "name": "rpm",
+            "format": "floatPoint"
+          }
+        ],
+        "name": "com.google.step_count.cadence"
+      },
+      "dataQualityStandard": [],
+      "application": {
+        "packageName": "com.google.android.gms",
+        "version": "1"
+      },
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "d83d7f49",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "derived:com.google.step_count.cadence:com.google.android.gms:motorola:Nexus 6:d83d7f49:derive_step_cadence<-raw:com.google.step_count.cumulative:motorola:Nexus 6:d83d7f49:Invensense Step Counter-Wakeup Secondary",
+      "type": "derived"
+    },
+    {
+      "dataQualityStandard": [],
+      "dataType": {
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ],
+        "name": "com.google.step_count.delta"
+      },
+      "dataStreamName": "estimated_steps",
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+      "type": "derived"
+    },
+    {
+      "dataQualityStandard": [],
+      "dataType": {
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ],
+        "name": "com.google.step_count.delta"
+      },
+      "dataStreamName": "merge_step_deltas",
+      "application": {
+        "packageName": "com.google.android.gms",
+        "version": "1"
+      },
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:merge_step_deltas",
+      "type": "derived"
+    },
+    {
+      "dataStreamName": "derive_step_deltas<-raw:com.google.step_count.cumulative:motorola:Nexus 6:cdc4c3f0:Invensense Step Counter",
+      "dataType": {
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ],
+        "name": "com.google.step_count.delta"
+      },
+      "dataQualityStandard": [],
+      "application": {
+        "packageName": "com.google.android.gms",
+        "version": "1"
+      },
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "cdc4c3f0",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:motorola:Nexus 6:cdc4c3f0:derive_step_deltas<-raw:com.google.step_count.cumulative:motorola:Nexus 6:cdc4c3f0:Invensense Step Counter",
+      "type": "derived"
+    },
+    {
+      "dataStreamName": "derive_step_deltas<-raw:com.google.step_count.cumulative:motorola:Nexus 6:cdc4c3f0:Invensense Step Counter-Wakeup Secondary",
+      "dataType": {
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ],
+        "name": "com.google.step_count.delta"
+      },
+      "dataQualityStandard": [],
+      "application": {
+        "packageName": "com.google.android.gms",
+        "version": "1"
+      },
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "cdc4c3f0",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:motorola:Nexus 6:cdc4c3f0:derive_step_deltas<-raw:com.google.step_count.cumulative:motorola:Nexus 6:cdc4c3f0:Invensense Step Counter-Wakeup Secondary",
+      "type": "derived"
+    },
+    {
+      "dataStreamName": "derive_step_deltas<-raw:com.google.step_count.cumulative:motorola:Nexus 6:d83d7f49:Invensense Step Counter",
+      "dataType": {
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ],
+        "name": "com.google.step_count.delta"
+      },
+      "dataQualityStandard": [],
+      "application": {
+        "packageName": "com.google.android.gms",
+        "version": "1"
+      },
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "d83d7f49",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:motorola:Nexus 6:d83d7f49:derive_step_deltas<-raw:com.google.step_count.cumulative:motorola:Nexus 6:d83d7f49:Invensense Step Counter",
+      "type": "derived"
+    },
+    {
+      "dataStreamName": "derive_step_deltas<-raw:com.google.step_count.cumulative:motorola:Nexus 6:d83d7f49:Invensense Step Counter-Wakeup Secondary",
+      "dataType": {
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ],
+        "name": "com.google.step_count.delta"
+      },
+      "dataQualityStandard": [],
+      "application": {
+        "packageName": "com.google.android.gms",
+        "version": "1"
+      },
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "d83d7f49",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:motorola:Nexus 6:d83d7f49:derive_step_deltas<-raw:com.google.step_count.cumulative:motorola:Nexus 6:d83d7f49:Invensense Step Counter-Wakeup Secondary",
+      "type": "derived"
+    },
+    {
+      "dataQualityStandard": [],
+      "dataType": {
+        "field": [
+          {
+            "name": "action",
+            "format": "integer"
+          },
+          {
+            "name": "activity",
+            "format": "integer"
+          }
+        ],
+        "name": "com.google.android.apps.fitness.autodetect.event"
+      },
+      "dataStreamName": "autodetect_events",
+      "application": {
+        "packageName": "com.google.android.apps.fitness"
+      },
+      "dataStreamId": "raw:com.google.android.apps.fitness.autodetect.event:com.google.android.apps.fitness:autodetect_events",
+      "type": "raw"
+    },
+    {
+      "dataQualityStandard": [],
+      "dataType": {
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ],
+        "name": "com.google.step_count.cumulative"
+      },
+      "dataStreamName": "Invensense Step Counter",
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "cdc4c3f0",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "raw:com.google.step_count.cumulative:motorola:Nexus 6:cdc4c3f0:Invensense Step Counter",
+      "type": "raw"
+    },
+    {
+      "dataQualityStandard": [],
+      "dataType": {
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ],
+        "name": "com.google.step_count.cumulative"
+      },
+      "dataStreamName": "Invensense Step Counter-Wakeup Secondary",
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "cdc4c3f0",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "raw:com.google.step_count.cumulative:motorola:Nexus 6:cdc4c3f0:Invensense Step Counter-Wakeup Secondary",
+      "type": "raw"
+    },
+    {
+      "dataQualityStandard": [],
+      "dataType": {
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ],
+        "name": "com.google.step_count.cumulative"
+      },
+      "dataStreamName": "Invensense Step Counter",
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "d83d7f49",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "raw:com.google.step_count.cumulative:motorola:Nexus 6:d83d7f49:Invensense Step Counter",
+      "type": "raw"
+    },
+    {
+      "dataQualityStandard": [],
+      "dataType": {
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ],
+        "name": "com.google.step_count.cumulative"
+      },
+      "dataStreamName": "Invensense Step Counter-Wakeup Secondary",
+      "device": {
+        "model": "Nexus 6",
+        "version": "",
+        "type": "phone",
+        "uid": "d83d7f49",
+        "manufacturer": "motorola"
+      },
+      "dataStreamId": "raw:com.google.step_count.cumulative:motorola:Nexus 6:d83d7f49:Invensense Step Counter-Wakeup Secondary",
+      "type": "raw"
+    }
+  ]
+}

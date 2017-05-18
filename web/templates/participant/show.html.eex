@@ -1,0 +1,23 @@
+<h2>Show participant</h2>
+
+<ul>
+
+  <li>
+    <strong>Google:</strong>
+    <%= @participant.google_id %>
+  </li>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @participant.name %>
+  </li>
+
+  <li>
+    <strong>Avatar url:</strong>
+    <%= @participant.avatar_url %>
+  </li>
+
+</ul>
+
+<%= link "Edit", to: participant_path(@conn, :edit, @participant) %>
+<%= link "Back", to: participant_path(@conn, :index) %>

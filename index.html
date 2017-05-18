@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Czy nopimy?</title>
+        <script type="text/css" src="czynopimy.css"></script>
+        <script type="text/javascript" src="vue.js"></script>
+    </head>
+    <body>
+        <span id="czyNopimyApp">
+            <div id="status">{{ status }}</div>
+            <div id="whosNopingHeader">Kto nopi:</div>
+            <div id="whosNopingList">
+                <ul>
+                    <li v-for="p in participants">{{ p }}</li>
+                </ul>
+            </div>
+            <div id="pastNopsHeader">Poprzednie nopy:</div>
+            <div id="pastNopsList">
+                <div v-for="n in pastNops">
+                    <span class="nopDate">{{ n.date }}</span>
+                    <ul>
+                        <li v-for="p in n.participants">{{ p }}</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="nopForm">
+                <div id="nopFormHeader">Nopisz?</div>
+                <button>Tak</button>
+                <button>Nie</button>
+            </div>
+        </span>
+    </body>
+    <script type="text/javascript" src="czynopimy.js"></script>
+</html>
